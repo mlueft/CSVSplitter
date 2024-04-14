@@ -1,6 +1,6 @@
 # CSVSplitter+
 ## Generell
-Auf dieser Seite finden sie das CSV-Tool, dass bis vor kurzem unter der URL http://www.lueftenegger.at/produkte/csvsplitter-freies-programm-zum-teilen-von-csv-dateien/ zu finden war.
+Auf dieser Seite finden sie das CSV-Tool, dass bis vor kurzem unter der URL <br>http://www.lueftenegger.at/produkte/csvsplitter-freies-programm-zum-teilen-von-csv-dateien/<br> zu finden war.
 
 CSV-Splitter+ ist ein Programm zum Teilen/Konvertieren von CSV-Dateien.
 Für einen möglichst großen Anwendungsbereich steht es als Windows und
