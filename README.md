@@ -185,8 +185,3 @@ geschrieben werden sollen.
 
 ### 1.0 - 17. Juli 2016
 * Erste Version veröffentlicht.
-
-## Lizenz
-Es ist nicht erlaubt das Programm in irgendeiner Weise zu manipulieren. Es ist 
-nicht erlaubt für das Programm jedwege Kosten zu erheben. Das Programm darf 
-kostenlos, jedoch ohne jegliche Garantie verwendet werden.
