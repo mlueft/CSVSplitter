@@ -1,4 +1,8 @@
 # CSVSplitter+
+## Binary download
+Just interested in the binary download? Here is the direct way:
+https://github.com/mlueft/CSVSplitter/tree/main/binary
+
 ## Generell
 Auf dieser Seite finden sie das CSV-Tool, dass bis vor kurzem unter der URL <br>http://www.lueftenegger.at/produkte/csvsplitter-freies-programm-zum-teilen-von-csv-dateien/<br> zu finden war.
 
