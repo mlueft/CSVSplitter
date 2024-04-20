@@ -1,0 +1,1371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label_inputfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_inputfile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label_inputfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 16</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_inputfile.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_inputfile.Text" xml:space="preserve">
+    <value>label_inputfile</value>
+  </data>
+  <data name="&gt;&gt;label_inputfile.Name" xml:space="preserve">
+    <value>label_inputfile</value>
+  </data>
+  <data name="&gt;&gt;label_inputfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_inputfile.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;label_inputfile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtInputFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 25</value>
+  </data>
+  <data name="txtInputFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtInputFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>697, 20</value>
+  </data>
+  <data name="txtInputFile.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtInputFile.Name" xml:space="preserve">
+    <value>txtInputFile</value>
+  </data>
+  <data name="&gt;&gt;txtInputFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtInputFile.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;txtInputFile.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSelectFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 25</value>
+  </data>
+  <data name="btnSelectFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnSelectFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="btnSelectFile.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnSelectFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnSelectFile.Name" xml:space="preserve">
+    <value>btnSelectFile</value>
+  </data>
+  <data name="&gt;&gt;btnSelectFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSelectFile.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;btnSelectFile.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtSplitAfter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 174</value>
+  </data>
+  <data name="txtSplitAfter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtSplitAfter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 20</value>
+  </data>
+  <data name="txtSplitAfter.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtSplitAfter.Text" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="&gt;&gt;txtSplitAfter.Name" xml:space="preserve">
+    <value>txtSplitAfter</value>
+  </data>
+  <data name="&gt;&gt;txtSplitAfter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSplitAfter.Parent" xml:space="preserve">
+    <value>label_split_options</value>
+  </data>
+  <data name="&gt;&gt;txtSplitAfter.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label_split_after.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 153</value>
+  </data>
+  <data name="label_split_after.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label_split_after.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 19</value>
+  </data>
+  <data name="label_split_after.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label_split_after.Text" xml:space="preserve">
+    <value>label_split_after</value>
+  </data>
+  <data name="&gt;&gt;label_split_after.Name" xml:space="preserve">
+    <value>label_split_after</value>
+  </data>
+  <data name="&gt;&gt;label_split_after.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_split_after.Parent" xml:space="preserve">
+    <value>label_split_options</value>
+  </data>
+  <data name="&gt;&gt;label_split_after.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkbox_source_has_header.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 170</value>
+  </data>
+  <data name="checkbox_source_has_header.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkbox_source_has_header.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 20</value>
+  </data>
+  <data name="checkbox_source_has_header.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkbox_source_has_header.Text" xml:space="preserve">
+    <value>checkbox_source_has_header</value>
+  </data>
+  <data name="&gt;&gt;checkbox_source_has_header.Name" xml:space="preserve">
+    <value>checkbox_source_has_header</value>
+  </data>
+  <data name="&gt;&gt;checkbox_source_has_header.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkbox_source_has_header.Parent" xml:space="preserve">
+    <value>label_input_options</value>
+  </data>
+  <data name="&gt;&gt;checkbox_source_has_header.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkbox_add_header_to_split_files.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 170</value>
+  </data>
+  <data name="checkbox_add_header_to_split_files.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkbox_add_header_to_split_files.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 20</value>
+  </data>
+  <data name="checkbox_add_header_to_split_files.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="checkbox_add_header_to_split_files.Text" xml:space="preserve">
+    <value>checkbox_add_header_to_split_files</value>
+  </data>
+  <data name="&gt;&gt;checkbox_add_header_to_split_files.Name" xml:space="preserve">
+    <value>checkbox_add_header_to_split_files</value>
+  </data>
+  <data name="&gt;&gt;checkbox_add_header_to_split_files.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkbox_add_header_to_split_files.Parent" xml:space="preserve">
+    <value>label_output_options</value>
+  </data>
+  <data name="&gt;&gt;checkbox_add_header_to_split_files.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button_do_split.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 8</value>
+  </data>
+  <data name="button_do_split.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="button_do_split.Size" type="System.Drawing.Size, System.Drawing">
+    <value>757, 29</value>
+  </data>
+  <data name="button_do_split.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="button_do_split.Text" xml:space="preserve">
+    <value>button_do_split</value>
+  </data>
+  <data name="&gt;&gt;button_do_split.Name" xml:space="preserve">
+    <value>button_do_split</value>
+  </data>
+  <data name="&gt;&gt;button_do_split.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_do_split.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;button_do_split.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="txtRegex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 122</value>
+  </data>
+  <data name="txtRegex.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtRegex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 20</value>
+  </data>
+  <data name="txtRegex.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtRegex.Name" xml:space="preserve">
+    <value>txtRegex</value>
+  </data>
+  <data name="&gt;&gt;txtRegex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRegex.Parent" xml:space="preserve">
+    <value>label_split_options</value>
+  </data>
+  <data name="&gt;&gt;txtRegex.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radio_split_after.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 90</value>
+  </data>
+  <data name="radio_split_after.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="radio_split_after.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 20</value>
+  </data>
+  <data name="radio_split_after.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radio_split_after.Text" xml:space="preserve">
+    <value>radio_split_after</value>
+  </data>
+  <data name="&gt;&gt;radio_split_after.Name" xml:space="preserve">
+    <value>radio_split_after</value>
+  </data>
+  <data name="&gt;&gt;radio_split_after.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radio_split_after.Parent" xml:space="preserve">
+    <value>label_split_options</value>
+  </data>
+  <data name="&gt;&gt;radio_split_after.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radio_split_before.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 65</value>
+  </data>
+  <data name="radio_split_before.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="radio_split_before.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 20</value>
+  </data>
+  <data name="radio_split_before.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radio_split_before.Text" xml:space="preserve">
+    <value>radio_split_before</value>
+  </data>
+  <data name="&gt;&gt;radio_split_before.Name" xml:space="preserve">
+    <value>radio_split_before</value>
+  </data>
+  <data name="&gt;&gt;radio_split_before.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radio_split_before.Parent" xml:space="preserve">
+    <value>label_split_options</value>
+  </data>
+  <data name="&gt;&gt;radio_split_before.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkbox_use_advanced_options.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 41</value>
+  </data>
+  <data name="checkbox_use_advanced_options.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkbox_use_advanced_options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 20</value>
+  </data>
+  <data name="checkbox_use_advanced_options.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkbox_use_advanced_options.Text" xml:space="preserve">
+    <value>checkbox_use_advanced_options</value>
+  </data>
+  <data name="&gt;&gt;checkbox_use_advanced_options.Name" xml:space="preserve">
+    <value>checkbox_use_advanced_options</value>
+  </data>
+  <data name="&gt;&gt;checkbox_use_advanced_options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkbox_use_advanced_options.Parent" xml:space="preserve">
+    <value>label_split_options</value>
+  </data>
+  <data name="&gt;&gt;checkbox_use_advanced_options.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_split_options.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 270</value>
+  </data>
+  <data name="label_split_options.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="label_split_options.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="label_split_options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 216</value>
+  </data>
+  <data name="label_split_options.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label_split_options.Text" xml:space="preserve">
+    <value>label_split_options</value>
+  </data>
+  <data name="&gt;&gt;label_split_options.Name" xml:space="preserve">
+    <value>label_split_options</value>
+  </data>
+  <data name="&gt;&gt;label_split_options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_split_options.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label_split_options.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>170, 17</value>
+  </metadata>
+  <data name="menu_quit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 22</value>
+  </data>
+  <data name="menu_quit.Text" xml:space="preserve">
+    <value>menu_quit</value>
+  </data>
+  <data name="menu_file.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="menu_file.Text" xml:space="preserve">
+    <value>menu_file</value>
+  </data>
+  <data name="menu_help.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="menu_help.Text" xml:space="preserve">
+    <value>menu_help</value>
+  </data>
+  <data name="menu_about.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="menu_about.Text" xml:space="preserve">
+    <value>menu_about</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 0, 2</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>814, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_copyright.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label_copyright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 174</value>
+  </data>
+  <data name="label_copyright.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label_copyright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>757, 19</value>
+  </data>
+  <data name="label_copyright.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label_copyright.Text" xml:space="preserve">
+    <value>label_copyright</value>
+  </data>
+  <data name="&gt;&gt;label_copyright.Name" xml:space="preserve">
+    <value>label_copyright</value>
+  </data>
+  <data name="&gt;&gt;label_copyright.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_copyright.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label_copyright.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtSourceLineDelimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 137</value>
+  </data>
+  <data name="txtSourceLineDelimiter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtSourceLineDelimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 20</value>
+  </data>
+  <data name="txtSourceLineDelimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtSourceLineDelimiter.Text" xml:space="preserve">
+    <value>\r\n</value>
+  </data>
+  <data name="&gt;&gt;txtSourceLineDelimiter.Name" xml:space="preserve">
+    <value>txtSourceLineDelimiter</value>
+  </data>
+  <data name="&gt;&gt;txtSourceLineDelimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSourceLineDelimiter.Parent" xml:space="preserve">
+    <value>label_input_options</value>
+  </data>
+  <data name="&gt;&gt;txtSourceLineDelimiter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_input_line_delimiter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_input_line_delimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 119</value>
+  </data>
+  <data name="label_input_line_delimiter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label_input_line_delimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 19</value>
+  </data>
+  <data name="label_input_line_delimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label_input_line_delimiter.Text" xml:space="preserve">
+    <value>label_input_line_delimiter</value>
+  </data>
+  <data name="&gt;&gt;label_input_line_delimiter.Name" xml:space="preserve">
+    <value>label_input_line_delimiter</value>
+  </data>
+  <data name="&gt;&gt;label_input_line_delimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_input_line_delimiter.Parent" xml:space="preserve">
+    <value>label_input_options</value>
+  </data>
+  <data name="&gt;&gt;label_input_line_delimiter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtSourceFieldDelimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 94</value>
+  </data>
+  <data name="txtSourceFieldDelimiter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtSourceFieldDelimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 20</value>
+  </data>
+  <data name="txtSourceFieldDelimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtSourceFieldDelimiter.Text" xml:space="preserve">
+    <value>;</value>
+  </data>
+  <data name="&gt;&gt;txtSourceFieldDelimiter.Name" xml:space="preserve">
+    <value>txtSourceFieldDelimiter</value>
+  </data>
+  <data name="&gt;&gt;txtSourceFieldDelimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSourceFieldDelimiter.Parent" xml:space="preserve">
+    <value>label_input_options</value>
+  </data>
+  <data name="&gt;&gt;txtSourceFieldDelimiter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_input_field_delimiter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_input_field_delimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 76</value>
+  </data>
+  <data name="label_input_field_delimiter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label_input_field_delimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 19</value>
+  </data>
+  <data name="label_input_field_delimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label_input_field_delimiter.Text" xml:space="preserve">
+    <value>label_input_field_delimiter</value>
+  </data>
+  <data name="&gt;&gt;label_input_field_delimiter.Name" xml:space="preserve">
+    <value>label_input_field_delimiter</value>
+  </data>
+  <data name="&gt;&gt;label_input_field_delimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_input_field_delimiter.Parent" xml:space="preserve">
+    <value>label_input_options</value>
+  </data>
+  <data name="&gt;&gt;label_input_field_delimiter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtSourceTextDelimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 53</value>
+  </data>
+  <data name="txtSourceTextDelimiter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtSourceTextDelimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 20</value>
+  </data>
+  <data name="txtSourceTextDelimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtSourceTextDelimiter.Text" xml:space="preserve">
+    <value>"</value>
+  </data>
+  <data name="&gt;&gt;txtSourceTextDelimiter.Name" xml:space="preserve">
+    <value>txtSourceTextDelimiter</value>
+  </data>
+  <data name="&gt;&gt;txtSourceTextDelimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSourceTextDelimiter.Parent" xml:space="preserve">
+    <value>label_input_options</value>
+  </data>
+  <data name="&gt;&gt;txtSourceTextDelimiter.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_input_text_delimiter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_input_text_delimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 35</value>
+  </data>
+  <data name="label_input_text_delimiter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label_input_text_delimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 19</value>
+  </data>
+  <data name="label_input_text_delimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label_input_text_delimiter.Text" xml:space="preserve">
+    <value>label_input_text_delimiter</value>
+  </data>
+  <data name="&gt;&gt;label_input_text_delimiter.Name" xml:space="preserve">
+    <value>label_input_text_delimiter</value>
+  </data>
+  <data name="&gt;&gt;label_input_text_delimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_input_text_delimiter.Parent" xml:space="preserve">
+    <value>label_input_options</value>
+  </data>
+  <data name="&gt;&gt;label_input_text_delimiter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label_input_options.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 19</value>
+  </data>
+  <data name="label_input_options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 216</value>
+  </data>
+  <data name="label_input_options.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label_input_options.Text" xml:space="preserve">
+    <value>label_input_options</value>
+  </data>
+  <data name="&gt;&gt;label_input_options.Name" xml:space="preserve">
+    <value>label_input_options</value>
+  </data>
+  <data name="&gt;&gt;label_input_options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_input_options.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label_input_options.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTargetLineDelimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 137</value>
+  </data>
+  <data name="txtTargetLineDelimiter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtTargetLineDelimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 20</value>
+  </data>
+  <data name="txtTargetLineDelimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="txtTargetLineDelimiter.Text" xml:space="preserve">
+    <value>\r\n</value>
+  </data>
+  <data name="&gt;&gt;txtTargetLineDelimiter.Name" xml:space="preserve">
+    <value>txtTargetLineDelimiter</value>
+  </data>
+  <data name="&gt;&gt;txtTargetLineDelimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTargetLineDelimiter.Parent" xml:space="preserve">
+    <value>label_output_options</value>
+  </data>
+  <data name="&gt;&gt;txtTargetLineDelimiter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_output_line_delimiter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_output_line_delimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 119</value>
+  </data>
+  <data name="label_output_line_delimiter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label_output_line_delimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 19</value>
+  </data>
+  <data name="label_output_line_delimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label_output_line_delimiter.Text" xml:space="preserve">
+    <value>label_output_line_delimiter</value>
+  </data>
+  <data name="&gt;&gt;label_output_line_delimiter.Name" xml:space="preserve">
+    <value>label_output_line_delimiter</value>
+  </data>
+  <data name="&gt;&gt;label_output_line_delimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_output_line_delimiter.Parent" xml:space="preserve">
+    <value>label_output_options</value>
+  </data>
+  <data name="&gt;&gt;label_output_line_delimiter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtTargetFieldDelimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 94</value>
+  </data>
+  <data name="txtTargetFieldDelimiter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtTargetFieldDelimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 20</value>
+  </data>
+  <data name="txtTargetFieldDelimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="txtTargetFieldDelimiter.Text" xml:space="preserve">
+    <value>;</value>
+  </data>
+  <data name="&gt;&gt;txtTargetFieldDelimiter.Name" xml:space="preserve">
+    <value>txtTargetFieldDelimiter</value>
+  </data>
+  <data name="&gt;&gt;txtTargetFieldDelimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTargetFieldDelimiter.Parent" xml:space="preserve">
+    <value>label_output_options</value>
+  </data>
+  <data name="&gt;&gt;txtTargetFieldDelimiter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_output_field_delimiter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_output_field_delimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 76</value>
+  </data>
+  <data name="label_output_field_delimiter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label_output_field_delimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 19</value>
+  </data>
+  <data name="label_output_field_delimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label_output_field_delimiter.Text" xml:space="preserve">
+    <value>label_output_field_delimiter</value>
+  </data>
+  <data name="&gt;&gt;label_output_field_delimiter.Name" xml:space="preserve">
+    <value>label_output_field_delimiter</value>
+  </data>
+  <data name="&gt;&gt;label_output_field_delimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_output_field_delimiter.Parent" xml:space="preserve">
+    <value>label_output_options</value>
+  </data>
+  <data name="&gt;&gt;label_output_field_delimiter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtTargetTextDelimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 53</value>
+  </data>
+  <data name="txtTargetTextDelimiter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtTargetTextDelimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 20</value>
+  </data>
+  <data name="txtTargetTextDelimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtTargetTextDelimiter.Text" xml:space="preserve">
+    <value>"</value>
+  </data>
+  <data name="&gt;&gt;txtTargetTextDelimiter.Name" xml:space="preserve">
+    <value>txtTargetTextDelimiter</value>
+  </data>
+  <data name="&gt;&gt;txtTargetTextDelimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTargetTextDelimiter.Parent" xml:space="preserve">
+    <value>label_output_options</value>
+  </data>
+  <data name="&gt;&gt;txtTargetTextDelimiter.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_output_text_delimiter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_output_text_delimiter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 35</value>
+  </data>
+  <data name="label_output_text_delimiter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label_output_text_delimiter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 19</value>
+  </data>
+  <data name="label_output_text_delimiter.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label_output_text_delimiter.Text" xml:space="preserve">
+    <value>label_output_text_delimiter</value>
+  </data>
+  <data name="&gt;&gt;label_output_text_delimiter.Name" xml:space="preserve">
+    <value>label_output_text_delimiter</value>
+  </data>
+  <data name="&gt;&gt;label_output_text_delimiter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_output_text_delimiter.Parent" xml:space="preserve">
+    <value>label_output_options</value>
+  </data>
+  <data name="&gt;&gt;label_output_text_delimiter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label_output_options.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 19</value>
+  </data>
+  <data name="label_output_options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 216</value>
+  </data>
+  <data name="label_output_options.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label_output_options.Text" xml:space="preserve">
+    <value>label_output_options</value>
+  </data>
+  <data name="&gt;&gt;label_output_options.Name" xml:space="preserve">
+    <value>label_output_options</value>
+  </data>
+  <data name="&gt;&gt;label_output_options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_output_options.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label_output_options.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_export_header.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_export_header.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 101</value>
+  </data>
+  <data name="label_export_header.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label_export_header.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 19</value>
+  </data>
+  <data name="label_export_header.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label_export_header.Text" xml:space="preserve">
+    <value>label_export_header</value>
+  </data>
+  <data name="&gt;&gt;label_export_header.Name" xml:space="preserve">
+    <value>label_export_header</value>
+  </data>
+  <data name="&gt;&gt;label_export_header.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_export_header.Parent" xml:space="preserve">
+    <value>label_column_options</value>
+  </data>
+  <data name="&gt;&gt;label_export_header.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 122</value>
+  </data>
+  <data name="txtHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 20</value>
+  </data>
+  <data name="txtHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtHeader.Name" xml:space="preserve">
+    <value>txtHeader</value>
+  </data>
+  <data name="&gt;&gt;txtHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHeader.Parent" xml:space="preserve">
+    <value>label_column_options</value>
+  </data>
+  <data name="&gt;&gt;txtHeader.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radio_header_names.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radio_header_names.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 66</value>
+  </data>
+  <data name="radio_header_names.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="radio_header_names.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 20</value>
+  </data>
+  <data name="radio_header_names.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="radio_header_names.Text" xml:space="preserve">
+    <value>radio_header_names</value>
+  </data>
+  <data name="&gt;&gt;radio_header_names.Name" xml:space="preserve">
+    <value>radio_header_names</value>
+  </data>
+  <data name="&gt;&gt;radio_header_names.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radio_header_names.Parent" xml:space="preserve">
+    <value>label_column_options</value>
+  </data>
+  <data name="&gt;&gt;radio_header_names.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radio_header_indices.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radio_header_indices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 41</value>
+  </data>
+  <data name="radio_header_indices.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="radio_header_indices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 20</value>
+  </data>
+  <data name="radio_header_indices.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="radio_header_indices.Text" xml:space="preserve">
+    <value>radio_header_indices</value>
+  </data>
+  <data name="&gt;&gt;radio_header_indices.Name" xml:space="preserve">
+    <value>radio_header_indices</value>
+  </data>
+  <data name="&gt;&gt;radio_header_indices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radio_header_indices.Parent" xml:space="preserve">
+    <value>label_column_options</value>
+  </data>
+  <data name="&gt;&gt;radio_header_indices.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_column_options.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 270</value>
+  </data>
+  <data name="label_column_options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 216</value>
+  </data>
+  <data name="label_column_options.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label_column_options.Text" xml:space="preserve">
+    <value>label_column_options</value>
+  </data>
+  <data name="&gt;&gt;label_column_options.Name" xml:space="preserve">
+    <value>label_column_options</value>
+  </data>
+  <data name="&gt;&gt;label_column_options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_column_options.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label_column_options.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_source_prefix.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_source_prefix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 35</value>
+  </data>
+  <data name="label_source_prefix.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label_source_prefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 19</value>
+  </data>
+  <data name="label_source_prefix.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label_source_prefix.Text" xml:space="preserve">
+    <value>label_source_prefix</value>
+  </data>
+  <data name="&gt;&gt;label_source_prefix.Name" xml:space="preserve">
+    <value>label_source_prefix</value>
+  </data>
+  <data name="&gt;&gt;label_source_prefix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_source_prefix.Parent" xml:space="preserve">
+    <value>label_prefix</value>
+  </data>
+  <data name="&gt;&gt;label_source_prefix.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkbox_target_prefix.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkbox_target_prefix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 94</value>
+  </data>
+  <data name="checkbox_target_prefix.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkbox_target_prefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 17</value>
+  </data>
+  <data name="checkbox_target_prefix.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="checkbox_target_prefix.Text" xml:space="preserve">
+    <value>checkbox_target_prefix</value>
+  </data>
+  <data name="&gt;&gt;checkbox_target_prefix.Name" xml:space="preserve">
+    <value>checkbox_target_prefix</value>
+  </data>
+  <data name="&gt;&gt;checkbox_target_prefix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkbox_target_prefix.Parent" xml:space="preserve">
+    <value>label_prefix</value>
+  </data>
+  <data name="&gt;&gt;checkbox_target_prefix.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtSourcePrefix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 53</value>
+  </data>
+  <data name="txtSourcePrefix.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtSourcePrefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 20</value>
+  </data>
+  <data name="txtSourcePrefix.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtSourcePrefix.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtSourcePrefix.Name" xml:space="preserve">
+    <value>txtSourcePrefix</value>
+  </data>
+  <data name="&gt;&gt;txtSourcePrefix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSourcePrefix.Parent" xml:space="preserve">
+    <value>label_prefix</value>
+  </data>
+  <data name="&gt;&gt;txtSourcePrefix.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_prefix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 19</value>
+  </data>
+  <data name="label_prefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 216</value>
+  </data>
+  <data name="label_prefix.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label_prefix.Text" xml:space="preserve">
+    <value>label_prefix</value>
+  </data>
+  <data name="&gt;&gt;label_prefix.Name" xml:space="preserve">
+    <value>label_prefix</value>
+  </data>
+  <data name="&gt;&gt;label_prefix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_prefix.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label_prefix.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 76</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>814, 229</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 42</value>
+  </data>
+  <data name="txtOutput.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtOutput.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txtOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>756, 129</value>
+  </data>
+  <data name="txtOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txtOutput.Name" xml:space="preserve">
+    <value>txtOutput</value>
+  </data>
+  <data name="&gt;&gt;txtOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtOutput.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;txtOutput.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 305</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>814, 196</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>814, 52</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>814, 501</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>830, 10000</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>830, 310</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CSVSplitter+</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_file.Name" xml:space="preserve">
+    <value>menu_file</value>
+  </data>
+  <data name="&gt;&gt;menu_file.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_quit.Name" xml:space="preserve">
+    <value>menu_quit</value>
+  </data>
+  <data name="&gt;&gt;menu_quit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_help.Name" xml:space="preserve">
+    <value>menu_help</value>
+  </data>
+  <data name="&gt;&gt;menu_help.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_about.Name" xml:space="preserve">
+    <value>menu_about</value>
+  </data>
+  <data name="&gt;&gt;menu_about.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="button_close" xml:space="preserve">
+    <value>schließen</value>
+  </data>
+  <data name="button_do_split" xml:space="preserve">
+    <value>CSV-Datei teilen</value>
+  </data>
+  <data name="checkbox_add_header_to_split_files" xml:space="preserve">
+    <value>Kopfzeile in Teildatei einfügen</value>
+  </data>
+  <data name="checkbox_source_has_header" xml:space="preserve">
+    <value>Quelldatei beinhaltet Kopfzeilen</value>
+  </data>
+  <data name="checkbox_use_advanced_options" xml:space="preserve">
+    <value>Trennungskriterien verwenden</value>
+  </data>
+  <data name="label_split_options" xml:space="preserve">
+    <value>Splitoptionen</value>
+  </data>
+  <data name="label_info" xml:space="preserve">
+    <value>CSVSplit+ teilt CSV-Dateien in Teildatein mit definierter Zeilenzahl.
+
+Das Programm darf kostenlos, jedoch ohne jegliche Garantie verwendet werden.
+Für weitere Information besuchen sie</value>
+  </data>
+  <data name="label_inputfile" xml:space="preserve">
+    <value>Quelldatei</value>
+  </data>
+  <data name="menu_about" xml:space="preserve">
+    <value>über</value>
+  </data>
+  <data name="menu_file" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="menu_help" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="menu_quit" xml:space="preserve">
+    <value>beenden</value>
+  </data>
+  <data name="radio_split_after" xml:space="preserve">
+    <value>Teile nach Zeile, die folgendem Regex entspricht</value>
+  </data>
+  <data name="radio_split_before" xml:space="preserve">
+    <value>Teile vor Zeile, die folgendem Regex entspricht</value>
+  </data>
+  <data name="window_title_about" xml:space="preserve">
+    <value>über</value>
+  </data>
+  <data name="label_split_after" xml:space="preserve">
+    <value>Teile nach folgender Zeilenzahl</value>
+  </data>
+  <data name="checkbox_use_columns" xml:space="preserve">
+    <value>Spaltenauszug verwenden</value>
+  </data>
+  <data name="label_column_options" xml:space="preserve">
+    <value>Spaltenoptionen</value>
+  </data>
+  <data name="label_input_field_delimiter" xml:space="preserve">
+    <value>Spaltentrenner</value>
+  </data>
+  <data name="label_input_line_delimiter" xml:space="preserve">
+    <value>Zeilenumbruch</value>
+  </data>
+  <data name="label_input_options" xml:space="preserve">
+    <value>Quelloptionen</value>
+  </data>
+  <data name="label_input_text_delimiter" xml:space="preserve">
+    <value>Textbegrenzung</value>
+  </data>
+  <data name="label_output_field_delimiter" xml:space="preserve">
+    <value>Spaltentrenner</value>
+  </data>
+  <data name="label_output_line_delimiter" xml:space="preserve">
+    <value>Zeilenumbruch</value>
+  </data>
+  <data name="label_output_options" xml:space="preserve">
+    <value>Zieloptionen</value>
+  </data>
+  <data name="label_output_text_delimiter" xml:space="preserve">
+    <value>Textbegrenzung</value>
+  </data>
+  <data name="radio_header_indices" xml:space="preserve">
+    <value>Index als Spaltenzahl</value>
+  </data>
+  <data name="radio_header_names" xml:space="preserve">
+    <value>Index als Spaltennamen</value>
+  </data>
+  <data name="label_export_header" xml:space="preserve">
+    <value>Zu exportierende Spalten</value>
+  </data>
+  <data name="checkbox_target_prefix" xml:space="preserve">
+    <value>Präfix in Teildatei schreiben</value>
+  </data>
+  <data name="label_prefix" xml:space="preserve">
+    <value>Datenpräfixblock</value>
+  </data>
+  <data name="label_source_prefix" xml:space="preserve">
+    <value>Anzahl der Präfixzeilen</value>
+  </data>
+  <data name="exit_error" xml:space="preserve">
+    <value>Der Prozess hat einen Fehler berichtet. Bitte prüfen sie die Logdatei.</value>
+  </data>
+  <data name="exit_ok" xml:space="preserve">
+    <value>Der Prozess wurde erfolgreich durchgeführt.</value>
+  </data>
+</root>

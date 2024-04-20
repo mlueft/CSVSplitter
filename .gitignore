@@ -1,0 +1,15 @@
+integrationstests/tests.log
+/CSVSplitter/bin/*
+/CSVSplitter/obj/*
+/CSVSplitter_cli/bin/*
+/CSVSplitter_cli/obj/*
+/generator/bin/*
+/generator/obj/*
+/Tests/bin/*
+/Tests/obj/*
+/release/*
+/Backup/*
+/packages/*
+/.vs/*
+/csv/*
+/temp/*
