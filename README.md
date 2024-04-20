@@ -163,8 +163,9 @@ Der Parameter --targetPrefix gibt an, ob die Präfixzeilen in die Teildateien
 geschrieben werden sollen.
 
 ## Veröffentlichungen
-### 1.2.3 - April 2024
+### 1.2.4 - April 2024
 * Der Quellcode wird auf github zu Verfügung gestellt.
+* Keine Änderungen zur Version 1.23
 
 ### 1.2.3 - 10. Mai 2020
 * GUI-Version ist ein Frontend für das Konsolenprogramm.
