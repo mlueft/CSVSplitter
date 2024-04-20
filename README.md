@@ -1,6 +1,7 @@
 # CSVSplitter+
 ## Binary download
 Just interested in the binary download? Here is the direct way:
+
 https://github.com/mlueft/CSVSplitter/tree/main/binary
 
 ## Generell
